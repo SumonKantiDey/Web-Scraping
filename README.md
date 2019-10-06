@@ -18,3 +18,9 @@ Install BeautifulSoup pip install beautifulsoup4
 ```
 Write this script for scraping the movie comment
 ```
+### Domain name check
+```
+-Scrape all .com.bd domain name site
+-Check which domain not use https 
+-Check loading time of that domina using selenium
+```
