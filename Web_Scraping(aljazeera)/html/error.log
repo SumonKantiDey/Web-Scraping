@@ -1,0 +1,340 @@
+ERROR:root:
+Traceback (most recent call last):
+  File "ch-1.py", line 4, in <module>
+    raise Exception
+Exception
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:write
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+io.UnsupportedOperation: write
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 20, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 20, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 20, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 20, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:unknown url type: ''
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 20, in retrieve_webpage
+    html = urlopen(self._url)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 511, in open
+    req = Request(fullurl, data)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 329, in __init__
+    self.full_url = url
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 355, in full_url
+    self._parse()
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 384, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: ''
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 34, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\sumon\Anaconda3\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\sumon\Anaconda3\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 20, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\sumon\Anaconda3\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 34, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 34, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:write() argument must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 34, in write_webpage_as_html
+    fobj.write(self.__data.encode())
+TypeError: write() argument must be str, not bytes
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 34, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:binary mode doesn't take an encoding argument
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 30, in write_webpage_as_html
+    with open(filepath,'wb',encoding='utf-8-sig') as fobj:
+ValueError: binary mode doesn't take an encoding argument
+ERROR:root:binary mode doesn't take an encoding argument
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 30, in write_webpage_as_html
+    with open(filepath,'wb',encoding='utf-8') as fobj:
+ValueError: binary mode doesn't take an encoding argument
+ERROR:root:binary mode doesn't take an encoding argument
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 30, in write_webpage_as_html
+    with open(filepath,'wb',encoding='utf8') as fobj:
+ValueError: binary mode doesn't take an encoding argument
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 34, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:open() argument 2 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 30, in write_webpage_as_html
+    with open(filepath,'wb'.encode('utf-8')) as fobj:
+TypeError: open() argument 2 must be str, not bytes
+ERROR:root:an integer is required (got type str)
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 30, in write_webpage_as_html
+    with open(filepath,'wb','utf-8') as fobj:
+TypeError: an integer is required (got type str)
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 34, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\sumon\Desktop\Web_scraping\webscrap\wscrap.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
