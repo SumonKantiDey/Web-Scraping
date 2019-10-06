@@ -20,7 +20,7 @@ Write this script for scraping the movie comment
 ```
 ### Domain name scrape
 -Scrape all [.com.bd](https://www.google.com/search?q=.com.bd&rlz=1C1CHBF_enBD841BD841&oq=.com.bd&aqs=chrome..69i57j69i59j69i60l3j69i65.1591j0j4&sourceid=chrome&ie=UTF-8) domain name url
-```
--Check which domain not use https 
--Check loading time of that domain using selenium
-```
+just run python scrap_url.py 
+-Check which domain not use https run python http_or_https_check.py
+-Check loading time of that domain using selenium run python loading_time.py
+
